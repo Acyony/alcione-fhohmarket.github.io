@@ -5,7 +5,7 @@ import "./shop.css";
 
 export const Shop = () => {
   return (
-    <div class="container">
+    <div class="container container-products">
       <div className="shopTitle"></div>
       <div className="row products">
         {PRODUCTS.map((product) => (

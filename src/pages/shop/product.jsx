@@ -13,7 +13,7 @@ export const Product = (props) => {
       </div>
 
       <div className="card-body mt-3 mb-5">
-        <h5 className="card-title">{name}</h5>
+        <h5 className="card-title mb-2">{name}</h5>
         <p className="card-text">€ {price}</p>
         <p className="card-text">{description}</p>
         <p className="card-text">{status}</p>

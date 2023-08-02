@@ -6,13 +6,17 @@
 
 .products {
   width: 100%;
-  grid-template-columns: 1fr 1fr 1fr;
+  /*grid-template-columns: 1fr 1fr 1fr;*/
   place-items: center;
   object-fit: cover;
 }
 
 .product .description {
   text-align: center;
+}
+
+.container-products {
+  padding-left: 2rem !important;
 }
 
 .product:hover {

@@ -10,10 +10,10 @@ export const Navbar = () => {
             <img
               src={logo}
               alt="Logo"
-              width="150"
+              width="45"
               className="d-inline-block  "
             />
-            <div className="ms-4 ">Alcione FlohMarket</div>
+            <div className="ms-3 ">Alcione's FlohMarket</div>
           </a>
         </div>
       </nav>
